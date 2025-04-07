@@ -1,0 +1,48 @@
+.subscription {
+    padding-bottom: 128px;
+
+    &__title {
+        margin-bottom: 37px;
+        text-align: center;
+    }
+
+    &__card {
+        
+        &-list {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+        }
+
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            background-color: var(--white-color);
+            border-radius: 32px;
+        }
+        
+        &-content {
+            margin: 60px;
+            max-width: 440px;
+        }
+
+        &-title {
+            margin-bottom: 22px;
+
+            font-weight: 600;
+            font-size: 26px;
+        }
+
+        &-desc {
+            margin-bottom: 38px;
+        }
+
+        &-btn {
+            padding: 16px 24px;
+        }
+
+        &-img {
+            border-radius: 32px;
+        }
+    }
+}

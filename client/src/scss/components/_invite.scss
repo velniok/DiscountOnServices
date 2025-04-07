@@ -1,0 +1,58 @@
+.invite {
+    padding-bottom: 120px;
+
+    &-wrapper {
+        padding: 40px 80px;
+        background-color: var(--blue-color);
+        box-shadow: 0 4px 24px 0 rgba(213, 216, 221, 0.2);
+        border-radius: 32px;
+        color: var(--white-color);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        width: 508px;
+    }
+
+    &__title {
+        margin-bottom: 24px;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 1.4;
+    }
+
+    &__btn {
+        padding: 28px 72px;
+        background-color: var(--white-color);
+        display: flex;
+        flex-direction: column;
+        cursor: default;
+
+        &-title {
+            margin-bottom: 10px;
+            font-family: var(--font-family);
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 1.4;
+        }
+
+        &-content {
+            display: flex;
+            align-items: center;
+        }
+
+        &-link {
+            margin-right: 8px;
+            font-weight: 600;
+            font-size: 20px;
+            text-transform: uppercase;
+            text-decoration: underline;
+            color: var(--blue-color);
+
+            &:hover {
+                color: var(--black02-color);
+            }
+        }
+    }
+}

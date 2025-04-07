@@ -1,0 +1,40 @@
+.about {
+    margin-bottom: 120px;
+
+    &__title {
+        margin-bottom: 37px;
+        text-align: center;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        padding: 60px;
+        background-color: var(--white-color);
+        box-shadow: 0 12px 28px 0 rgba(244, 245, 245, 0.2);
+        border-radius: 32px;
+
+        &-logo {
+            margin-bottom: 32px;
+        }
+
+        &-desc {
+            margin-bottom: 32px;
+            font-size: 18px;
+            width: 470px;
+
+            &--strong {
+                margin-bottom: 0;
+                font-weight: 700;
+            }
+        }
+    }
+
+    &__img {
+        box-shadow: 0 12px 28px 0 rgba(244, 245, 245, 0.2);
+        border-radius: 32px;
+    }
+}

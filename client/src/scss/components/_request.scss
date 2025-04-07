@@ -1,0 +1,32 @@
+.request {
+    padding-bottom: 120px;
+
+    &-wrapper {
+        padding: 40px 60px;
+        background-color: var(--blue-color);
+        color: var(--white-color);
+        border-radius: 32px;
+        box-shadow: 0 12px 28px 0 rgba(244, 245, 245, 0.2), 0 4px 24px 0 rgba(213, 216, 221, 0.2), 0 4px 24px 0 rgba(213, 216, 221, 0.2);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__text {
+
+
+        &-title {
+            margin-bottom: 21px;
+            font-weight: 700;
+            font-size: 22px;
+        }
+
+        &-desc {
+            font-size: 18px;
+        }
+    }
+
+    &__btn {
+        padding: 16px 112px;
+    }
+}

@@ -1,0 +1,39 @@
+.hero {
+    padding-top: 60px;
+    padding-bottom: 120px;
+
+    &-wrapper {
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+    }
+    
+    &__content {
+        padding: 114px 60px;
+        background-color: var(--blue-color);
+        box-shadow: 0 4px 24px 0 rgba(213, 216, 221, 0.2);
+        color: var(--white-color);
+        border-radius: 32px;
+        max-height: 500px;
+
+        &-title {
+            max-width: 465px;
+            margin-bottom: 24px;
+            font-size: 36px;
+        }
+
+        &-desc {
+            max-width: 465px;
+            margin-bottom: 40px;
+        }
+
+        &-btn {
+            padding: 16px 56px;
+        }
+    }
+
+    &__img {
+        border-radius: 32px;
+        box-shadow: 0 12px 28px 0 rgba(244, 245, 245, 0.2);
+    }
+}

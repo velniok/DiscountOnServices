@@ -1,0 +1,102 @@
+.steps {
+    padding-bottom: 16px;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 37px;
+    }
+
+    &__card {
+        
+        &-list {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-item {
+            position: relative;
+            background-color: var(--white-color);
+            box-shadow: 0 12px 28px 0 rgba(244, 245, 245, 0.2);
+            border-radius: 32px;
+            width: 388px;
+            height: 300px;
+            padding: 40px;
+        }
+
+        &-img {
+            float: right;
+        }
+
+        &-text {
+            position: absolute;
+            bottom: 40px;
+            width: 227px;
+        }
+
+        &-title {
+            margin-bottom: 26px;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 1.4;
+        }
+
+        &-desc {
+            font-size: 18px;
+        }
+    }
+
+    &__invite {
+        padding: 40px 80px;
+        background-color: var(--blue-color);
+        box-shadow: 0 4px 24px 0 rgba(213, 216, 221, 0.2);
+        border-radius: 32px;
+        color: var(--white-color);
+        display: flex;
+        justify-content: space-between;
+        
+        &-text {
+            width: 508px;
+        }
+
+        &-title {
+            margin-bottom: 24px;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 1.4;
+        }
+
+        &-btn {
+            padding: 28px 72px;
+            background-color: var(--white-color);
+            display: flex;
+            flex-direction: column;
+            cursor: default;
+
+            &-title {
+                margin-bottom: 10px;
+                font-family: var(--font-family);
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 1.4;
+            }
+
+            &-content {
+                display: flex;
+                align-items: center;
+            }
+
+            &-link {
+                margin-right: 8px;
+                font-weight: 600;
+                font-size: 20px;
+                text-transform: uppercase;
+                text-decoration: underline;
+                color: var(--blue-color);
+
+                &:hover {
+                    color: var(--black02-color);
+                }
+            }
+        }
+    }
+}
